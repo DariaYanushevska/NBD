@@ -1,0 +1,23 @@
+nbd> db.map_reduce2.find()
+[
+  { _id: 'XAF', value: 754247.5700000005 },
+  { _id: 'MOP', value: 5337.77 },
+  { _id: 'DZD', value: 12166.2 },
+  { _id: 'BSD', value: 55361.39 },
+  { _id: 'MMK', value: 226778.17 },
+  { _id: 'IDR', value: 15803638.670000032 },
+  { _id: 'KPW', value: 227902.01000000004 },
+  { _id: 'OMR', value: 87008.08 },
+  { _id: 'MZN', value: 92068.64 },
+  { _id: 'MYR', value: 671978.4499999998 },
+  { _id: 'LBP', value: 43326.06 },
+  { _id: 'TZS', value: 617053.5200000001 },
+  { _id: 'BND', value: 7782.66 },
+  { _id: 'RUB', value: 8648162.270000001 },
+  { _id: 'GBP', value: 243512.86 },
+  { _id: 'MXN', value: 1568281.8999999994 },
+  { _id: 'JPY', value: 2601019.2699999977 },
+  { _id: 'MWK', value: 88106.83000000002 },
+  { _id: 'NIO', value: 263374.09 },
+  { _id: 'JOD', value: 214942.07000000004 }
+]

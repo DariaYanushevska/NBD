@@ -1,0 +1,41 @@
+[
+  { _id: 'BGN', value: { total: 21200.88, average: 5300.22 } },
+  { _id: 'TJS', value: { total: 4087.71, average: 4087.71 } },
+  { _id: 'VUV', value: { total: 6418.27, average: 6418.27 } },
+  { _id: 'BOB', value: { total: 5263.3, average: 5263.3 } },
+  { _id: 'NGN', value: { total: 24946.23, average: 4157.705 } },
+  {
+    _id: 'BRL',
+    value: { total: 49632.020000000004, average: 4512.001818181819 }
+  },
+  {
+    _id: 'USD',
+    value: { total: 80650.70000000001, average: 5040.668750000001 }
+  },
+  { _id: 'BYR', value: { total: 5095.79, average: 5095.79 } },
+  {
+    _id: 'MGA',
+    value: { total: 14560.99, average: 4853.663333333333 }
+  },
+  {
+    _id: 'CZK',
+    value: { total: 37156.420000000006, average: 4644.552500000001 }
+  },
+  { _id: 'CLP', value: { total: 21008.95, average: 5252.2375 } },
+  { _id: 'KYD', value: { total: 3760.89, average: 3760.89 } },
+  { _id: 'COP', value: { total: 19746.73, average: 4936.6825 } },
+  { _id: 'NOK', value: { total: 4773.66, average: 4773.66 } },
+  {
+    _id: 'PLN',
+    value: { total: 90770.77999999998, average: 5042.82111111111 }
+  },
+  { _id: 'YER', value: { total: 13712.5, average: 4570.833333333333 } },
+  { _id: 'RSD', value: { total: 4276.56, average: 4276.56 } },
+  {
+    _id: 'ZAR',
+    value: { total: 11790.92, average: 3930.306666666667 }
+  },
+  { _id: 'CUP', value: { total: 15017.34, average: 5005.78 } },
+  { _id: 'IQD', value: { total: 4269.39, average: 4269.39 } }
+]
+Type "it" for more

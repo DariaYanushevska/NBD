@@ -1,0 +1,33 @@
+{
+  acknowledged: true,
+  insertedId: ObjectId("6297e22e3f56a49f4a4477d6")
+}
+
+
+
+[
+    {
+      _id: ObjectId("6297e22e3f56a49f4a4477d6"),
+      sex: 'Female',
+      first_name: 'Daria',
+      last_name: 'Yanushevska',
+      job: 'Data analyst',
+      email: 'dayaseta@gmail.com',
+      location: {
+        city: 'Warsaw',
+        address: { streetname: 'Grojecka', streetnumber: '67' }
+      },
+      description: 'abc',
+      height: 174,
+      weight: 63,
+      birth_date: ISODate("1996-10-12T00:40:00.000Z"),
+      nationality: 'Ukraine',
+      credit: {
+        type: 'switch',
+        number: '1234567891011121314',
+        currency: 'UAH',
+        balance: '1234.56'
+      }
+    }
+  ]
+  

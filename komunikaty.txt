@@ -1,0 +1,23 @@
+HTTP/1.1 204 No Content
+HTTP/1.1 200 OK
+{
+    "surname": "Yanushevska",
+    "name": "Daria",
+    "weight": 61.8,
+    "height": 174
+}
+HTTP/1.1 204 No Content
+HTTP/1.1 200 OK
+{
+    "surname": "Anshevska",
+    "name": "Daria",
+    "weight": 61.8,
+    "height": 174
+}
+HTTP/1.1 204 No Content
+HTTP/1.1 404 Object Not Found
+Exception in thread "main" java.lang.Exception: not found
+
+	at Main.getElement(Main.java:85)
+	at Main.main(Main.java:42)
+

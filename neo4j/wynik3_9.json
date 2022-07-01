@@ -1,0 +1,44 @@
+﻿[
+  {
+    "movie": {
+"identity": 1387,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "When Patriots Become Heroes",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "Actors": [
+      "Martin Sherman",
+      "Derek Luke",
+      "JJ Feild",
+      "Stanley Tucci",
+      "Samuel L. Jackson",
+      "Richard Armitage",
+      "Dominic Cooper",
+      "Neal McDonough",
+      "Chris Evans",
+      "Kenneth Choi",
+      "Hugo Weaving",
+      "Tommy Lee Jones",
+      "TToby Jones",
+      "Hayley Atwell",
+      "Lex Shrapnel",
+      "Sebastian Stan",
+      "Michael Brandon"
+    ],
+    "Directors": [
+      "Joe Johnston"
+    ],
+    "Writers": [
+      "Stephen McFeely",
+      "Christopher Markus"
+    ],
+    "Producers": [
+      "Kevin Feige"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+Wynik 2:
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhfzKVrDwKAumMGUyJjHyvBwgdEdviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25335>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 22:34:09 GMT
+ETag: "5YjbFhJGpAxWgosbc1zyLB"
+Date: Thu, 30 Jun 2022 23:01:55 GMT
+Content-Type: application/json
+Content-Length: 71
+
+{"name": "Frances", "surname":"Romero", "height":179.89, "weight":67.8}% 
+
+Wynik 3:
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhfz0T/FwKAumMGUyJLHysCwyugOXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25335>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 23:13:04 GMT
+ETag: "4eRduJHeaZzZgQDDJcQi3H"
+Date: Thu, 30 Jun 2022 23:14:55 GMT
+Content-Type: application/json
+Content-Length: 107
+
+{"name": "Agnieszka", "surname":"Młynarska", "height":170.7, "weight":54.3, "date_of_birth":"1996-Oct-12"}%                                                     
+
+Wynik 4
+Usunęłam polę "weight"
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhfzseFlYFAXymBKZMpjZZi02ugOXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25335>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 23:19:46 GMT
+ETag: "4RDPKb5pzXANSfsdcmaieq"
+Date: Thu, 30 Jun 2022 23:19:56 GMT
+Content-Type: application/json
+Content-Length: 58
+
+{"name": "Aurora", "surname":"Bosakowska", "height":172.5}%    
+
+Wynik 5
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvhfzseFlYFAXymBKZM5jZTi4xugOXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25335>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 23:24:49 GMT
+ETag: "5SIx7opcREoSmhs53JnhzS"
+Date: Thu, 30 Jun 2022 23:26:23 GMT
+Content-Type: application/json
+Content-Length: 69
+
+{"name": "Aurora", "surname":"Bosakowska", "height":169, "weight":57}%   
+
+Wynik 6
+usunięcie
+
+Wynik 7
+not found
+
+Wynik 8
+Dodawanie bez klucza
+
+Wynik 9
+curl 'http://localhost:8098/buckets/s25335/keys?keys=true' -i
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 01 Jul 2022 00:09:41 GMT
+Content-Type: application/json
+Content-Length: 76
+
+{"keys":["Agnieszka","Daria","VF3Q7FCTBm5C1vmsY5RTBL2Y1Wc","Frances","Jan"]}%                                                                                   
+
+
+
+Po wyciągnieciu klucza z właściwości:
+{"name": "Lab_05"}%   
+
+Wynik 10:
+curl http://localhost:8098/buckets/s25335/keys/VF3Q7FCTBm5C1vmsY5RTBL2Y1Wc            
+not found
+
+

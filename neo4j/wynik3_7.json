@@ -1,0 +1,26 @@
+﻿[
+  {
+    "person": "Cameron Crowe",
+    "filmy": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "person": "Lana Wachowski",
+    "filmy": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "person": "Lilly Wachowski",
+    "filmy": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "person": "Nancy Meyers",
+    "filmy": [
+      "Something's Gotta Give"
+    ]
+  }
+]

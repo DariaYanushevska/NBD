@@ -1,0 +1,1223 @@
+[
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e55"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e56"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e57"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e58"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e59"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e60"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e61"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e62"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e63"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e64"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e65"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e66"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e67"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e68"),
+    sex: 'Male',
+    nationality: 'Germany'
+  }
+]
+Type "it" for more
+nbd> printjson(db.people.find({},{"sex":"Male", "nationality":"Germany"}).toArray())
+[
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e55"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e56"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e57"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e58"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e59"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e60"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e61"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e62"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e63"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e64"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e65"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e66"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e67"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e68"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e69"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e70"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e71"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e72"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e73"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e74"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e75"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e76"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e77"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e78"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e79"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e80"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e81"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e82"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e83"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e84"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e85"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e86"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e87"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e88"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e89"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e90"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e91"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e92"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e93"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e94"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e95"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e96"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e97"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e98"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e99"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea0"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea1"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea2"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea3"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea4"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea5"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea6"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea7"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea8"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea9"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eaa"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eab"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eac"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ead"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eae"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eaf"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb0"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb1"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb2"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb3"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb4"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb5"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb6"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb7"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb8"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  ... 9900 more items
+]
+
+nbd> printjson(db.people.findOne({}).toArray())
+TypeError: db.people.findOne({}).toArray is not a function
+nbd> db.people.findOne({})
+{
+  _id: ObjectId("6293bb8ee6e74138a1df5e55"),
+  sex: 'Male',
+  first_name: 'Wayne',
+  last_name: 'Fields',
+  job: 'Speech Pathologist',
+  email: 'wfields0@diigo.com',
+  location: {
+    city: 'Oyo',
+    address: { streetname: 'Beilfuss', streetnumber: '860' }
+  },
+  description: 'vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris',
+  height: '152.38',
+  weight: '66.81',
+  birth_date: '1990-02-21T02:55:03Z',
+  nationality: 'Nigeria',
+  credit: [
+    {
+      type: 'switch',
+      number: '6759888939100098699',
+      currency: 'COP',
+      balance: '5117.06'
+    }
+  ]
+}
+nbd> printjson(db.people.findOne({}).toArray())
+TypeError: db.people.findOne({}).toArray is not a function
+nbd> printjson(db.people.findOne({}))
+{
+  _id: ObjectId("6293bb8ee6e74138a1df5e55"),
+  sex: 'Male',
+  first_name: 'Wayne',
+  last_name: 'Fields',
+  job: 'Speech Pathologist',
+  email: 'wfields0@diigo.com',
+  location: {
+    city: 'Oyo',
+    address: { streetname: 'Beilfuss', streetnumber: '860' }
+  },
+  description: 'vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris',
+  height: '152.38',
+  weight: '66.81',
+  birth_date: '1990-02-21T02:55:03Z',
+  nationality: 'Nigeria',
+  credit: [
+    {
+      type: 'switch',
+      number: '6759888939100098699',
+      currency: 'COP',
+      balance: '5117.06'
+    }
+  ]
+}
+
+nbd> printjson(db.people.findOne({"sex":"Female", "nationality":"China"}).toArray())
+TypeError: db.people.fin ... ina"}).toArray is not a function
+nbd> printjson(db.people.findOne({"sex":"Female", "nationality":"China"}))
+{
+  _id: ObjectId("6293bb8ee6e74138a1df5e62"),
+  sex: 'Female',
+  first_name: 'Frances',
+  last_name: 'Romero',
+  job: 'Project Manager',
+  email: 'fromeroc@ted.com',
+  location: {
+    city: 'Yantang',
+    address: { streetname: 'Holy Cross', streetnumber: '33801' }
+  },
+  description: 'non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit',
+  height: '179.89',
+  weight: '67.8',
+  birth_date: '1954-03-25T11:51:38Z',
+  nationality: 'China',
+  credit: [
+    {
+      type: 'instapayment',
+      number: '3581609550731672',
+      currency: 'CZK',
+      balance: '5658.66'
+    },
+    {
+      type: 'visa-electron',
+      number: '6379796541338409',
+      currency: 'PLN',
+      balance: '4280.15'
+    },
+    {
+      type: 'diners-club-international',
+      number: '3539516040777020',
+      currency: 'LKR',
+      balance: '5402.31'
+    },
+    {
+      type: 'jcb',
+      number: '5602223447727826',
+      currency: 'CNY',
+      balance: '4653.86'
+    },
+    {
+      type: 'jcb',
+      number: '3529854509994014',
+      currency: 'ARS',
+      balance: '4944.8'
+    }
+  ]
+}
+
+nbd> printjson(db.people.find({},{"sex":"Male", "nationality":"Germany"}).toArray())
+[
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e55"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e56"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e57"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e58"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e59"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e5f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e60"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e61"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e62"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e63"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e64"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e65"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e66"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e67"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e68"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e69"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e6f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e70"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e71"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e72"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e73"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e74"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e75"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e76"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e77"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e78"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e79"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e7f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e80"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e81"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e82"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e83"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e84"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e85"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e86"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e87"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e88"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e89"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e8f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e90"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e91"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e92"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e93"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e94"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e95"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e96"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e97"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e98"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e99"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9a"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9b"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9c"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9d"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9e"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5e9f"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea0"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea1"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea2"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea3"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea4"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea5"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea6"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea7"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea8"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ea9"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eaa"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eab"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eac"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5ead"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eae"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eaf"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb0"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb1"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb2"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb3"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb4"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb5"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb6"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb7"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  {
+    _id: ObjectId("6293bb8ee6e74138a1df5eb8"),
+    sex: 'Male',
+    nationality: 'Germany'
+  },
+  ... 9900 more items
+]
+

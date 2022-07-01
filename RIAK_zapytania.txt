@@ -1,0 +1,38 @@
+Zadanie 1
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Frances", "surname":"Romero", "height":179.89, "weight":67.8}' http://localhost:8098/buckets/s25335/keys/Frances                                                                                     daria@Maksyms-MacBook-Air ~ % curl -XPUT -H "Content-Type: application/json" -d '{"name": "Daria", "surname":"Yanushevska", "height":174, "weight":61.8}' http://localhost:8098/buckets/s25335/keys/Daria
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "surname":"Kowalski", "height":180.4, "weight":75.3}' http://localhost:8098/buckets/s25335/keys/Jan
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Agnieszka", "surname":"Młynarska", "height":170.7, "weight":54.3}' http://localhost:8098/buckets/s25335/keys/Agnieszka
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Aurora", "surname":"Bosakowska", "height":172.5, "weight":57}' http://localhost:8098/buckets/s25335/keys/Aurora
+
+Zadanie 2
+curl http://localhost:8098/buckets/s25335/keys/Frances -i 
+
+Zadanie 3
+Dodałam datę urodzenia 
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Agnieszka", "surname":"Młynarska", "height":170.7, "weight":54.3, "date_of_birth":"1996-Oct-12"}' http://localhost:8098/buckets/s25335/keys/Agnieszka
+
+Zadanie 4
+Usunęłam polę "weight"
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Aurora", "surname":"Bosakowska", "height":172.5}' http://localhost:8098/buckets/s25335/keys/Aurora    
+
+
+Zadanie 5
+Zmieniłam wzrost ze 172.5 na 169
+curl -XPUT -H "Content-Type: application/json" -d '{"name": "Aurora", "surname":"Bosakowska", "height":169, "weight":57}' http://localhost:8098/buckets/s25335/keys/Aurora        
+
+Zadanie 6
+curl -XDELETE http://localhost:8098/buckets/s25335/keys/Aurora   
+
+Zadanie 7
+curl http://localhost:8098/buckets/s25335/keys/Aurora 
+
+Zadanie 8
+curl -XPOST -H "Content-Type: application/json" -d '{"name": "Lab_05"}' http://localhost:8098/buckets/s25335/keys/
+
+Zadanie 9
+curl 'http://localhost:8098/buckets/s25335/keys?keys=true' -i
+
+curl http://localhost:8098/buckets/s25335/keys/VF3Q7FCTBm5C1vmsY5RTBL2Y1Wc
+
+Zadanie 10
+curl -XDELETE http://localhost:8098/buckets/s25335/keys/VF3Q7FCTBm5C1vmsY5RTBL2Y1Wc   

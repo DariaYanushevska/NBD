@@ -1,0 +1,3 @@
+db.people.insertOne({"sex":"Female","first_name":"Daria","last_name":"Yanushevska","job":"Data analyst","email":"dayaseta@gmail.com","location":{"city":"Warsaw","address":{"streetname":"Grojecka","streetnumber":"67"}},"description":"abc","height":174.0,"weight":63.0,"birth_date":ISODate("1996-10-12T00:40:00Z"),"nationality":"Ukraine","credit":{"type":"switch", "number":"1234567891011121314", "currency":"UAH", "balance":"1234.56"}})
+
+db.people.find({ "last_name": "Yanushevska" })
